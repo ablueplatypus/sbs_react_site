@@ -1,25 +1,18 @@
 // import React from 'react';
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import About from './About';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import About from './pages/About';
 
-function App() {
-
-const [count, setCount] = useState(0);
+const App = () => {
 
   return (
     <div className="App">
-      <p> You clicked {count} times</p>
-      <button onClick={() => setCount(count +1)}>
-        Click me
-      </button>
-    <div>
-      <About
-
-      />
-      </div>
-
+      <Router>
+        <div>
+          <Route exact path="/" pages ={About}/>
+        </div>
+      </Router>
     </div>
   );
 }
