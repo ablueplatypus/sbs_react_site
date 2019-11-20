@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Navbar from '../componets/Navbar';
 
-const About = props =>  {
-
+const About = (props) => {
   return (
-     <div>
-      <h1>About Page</h1>
+    <div>
+    <Navbar/>
+      <h1>About Me</h1>
     </div>
   )
 
