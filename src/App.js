@@ -1,19 +1,15 @@
 // import React from 'react';
 import React, { useState } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import About from './pages/About';
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 const App = () => {
 
   return (
-    <div className="App">
-      <Router>
-        <div>
-          <Route exact path="/" pages ={About}/>
-        </div>
-      </Router>
-    </div>
+    <Router>
+        <Route exact path="/" component={Home}/>
+    </Router>
   );
 }
 
