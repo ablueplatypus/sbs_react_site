@@ -20,17 +20,16 @@ class Navbar extends Component {
           </li>
           <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Services
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link className="dropdown-item" href="#">Action</Link>
-              <Link className="dropdown-item" href="#">Another action</Link>
-              <div className="dropdown-divider"></div>
-              <Link className="dropdown-item" href="#">Something else here</Link>
+              <Link className="dropdown-item" href="#">Landscaping</Link>
+              <Link className="dropdown-item" href="#">Floor Coatings</Link>
+              <Link className="dropdown-item" href="#">Snow Removal</Link>
+              <Link className="dropdown-item" href="#">Rust Protection</Link>
+              <Link className="dropdown-item" href="#">Specialty Services</Link>
+              {/* <div className="dropdown-divider"></div> */}
             </div>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</Link>
           </li>
         </ul>
         <form className="form-inline my-2 my-lg-0">

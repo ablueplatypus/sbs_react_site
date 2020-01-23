@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../componets/Navbar';
+import Footer from '../componets/Footer';
 
 class Home extends Component {
 
@@ -9,8 +10,9 @@ class Home extends Component {
       <Navbar/>
         <div className ="container">
           <h1>Welcome to Specialty Building Solutions</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in sollicitudin turpis. Etiam sed convallis leo, vel posuere magna. Curabitur sed feugiat nisi. Sed quis nunc iaculis, consequat velit id, consectetur nulla. Curabitur vel libero sit amet sem tempus interdum. Quisque malesuada neque sit amet viverra posuere. Aliquam in volutpat quam. Curabitur tellus neque, dapibus sed turpis a, egestas congue augue. Nulla nibh nunc, malesuada eget vehicula eget, vehicula vel enim. Aenean congue tempor ipsum vitae interdum. Aenean consectetur felis vel quam placerat, ultricies venenatis nulla lobortis. Aenean iaculis tortor pharetra nibh dapibus vulputate. Duis fringilla felis sed justo ultricies, nec viverra ex blandit. Etiam ornare eros blandit nisl interdum, eu pretium purus porta. Donec luctus risus in magna ultrices, et condimentum orci placerat.</p>
+          <p>Specialty Building Solutions (SBS) has been providing professional property care for the past 25 years for commercial and residential properties such as J.P Morgan Chase, TD Bank, Jones Lang LaSalle, Silverstein Properties, National Grid and The Empire State Building. We service New York City, and all areas on Long Island. It is a family run operation that prides ourselves on having a Pierson involved on any project big or small.</p>
         </div>
+      <Footer />
       </div>
     )
   }
