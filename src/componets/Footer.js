@@ -14,7 +14,7 @@ const Footer = (props) => {
   return (
     <div id="footer">
       <div className="container">
-        <div className="row">
+        <div className="row footer">
         <section className="col-4 col-12-mobile">
                 <header>
                   <h2 className="icon solid fa-home circled">

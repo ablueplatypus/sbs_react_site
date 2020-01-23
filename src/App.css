@@ -1,0 +1,11 @@
+@media screen and (max-width: 736px) {
+  section.col-4.col-12-mobile {
+      max-width: 100%;
+  }
+
+.row.footer {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+}
