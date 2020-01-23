@@ -1,10 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
+import Land_1 from "../images/landscaping/FB_102.jpg";
+import Land_2 from "../images/landscaping/FB_103.jpg";
+import Land_3 from "../images/landscaping/FB_104.jpg";
+import Land_4 from "../images/landscaping/FB_105.jpg";
+import Land_5 from "../images/landscaping/FB_106.jpg";
+import Land_6 from "../images/landscaping/FB_107.jpg";
+import Land_8 from "../images/landscaping/FB_108.jpg";
+
+
+
 
 const Footer = (props) => {
   return (
     <div id="footer">
-      <div classNameName="container">
-        <div classNameName="row">
+      <div className="container">
+        <div className="row">
         <section className="col-4 col-12-mobile">
                 <header>
                   <h2 className="icon solid fa-home circled">
@@ -77,22 +87,23 @@ const Footer = (props) => {
                 </header>
                 <div className="row gtr-25">
                   <div className="col-6">
-                    <img className="image fit" src="images/FB_102.jpg" alt="" />
+                    <img className="image fit" src={Land_1} alt="" />
                   </div>
                   <div className="col-6">
-                    <img className="image fit" src="images/FB_103.jpg" alt="" />
+
+                    <img className="image fit" src={Land_2} alt="" />
                   </div>
                   <div className="col-6">
-                    <img  className="image fit" src="images/FB_104.jpg" alt=""/>
+                    <img  className="image fit" src={Land_3} alt=""/>
                   </div>
                   <div className="col-6">
-                    <img className="image fit"src="images/FB_106.jpg" alt="" />
+                    <img className="image fit" src={Land_4} alt="" />
                   </div>
                   <div className="col-6">
-                     <img className="image fit" src="images/FB_107.jpg" alt="" />
+                     <img className="image fit" src={Land_5} alt="" />
                   </div>
                   <div className="col-6">
-                    <img  className="image fit" src="images/FB_108.jpg" alt="" />
+                    <img  className="image fit" src={Land_6} alt="" />
                   </div>
                 </div>
               </section>
